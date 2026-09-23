@@ -34,9 +34,9 @@ export function Hero() {
       transition={{ duration: 0.5, ease: "easeOut" }}
       className="w-screen h-screen relative overflow-hidden mb-5"
     >
-      <div className="absolute z-10 flex flex-col bottom-0 w-full">
+      <div className="absolute z-10 flex flex-col bottom-[16vh] sm:bottom-0 w-full">
         <p
-          className="font-inter px-4 sm:px-7 py-0 m-0 mb-6 sm:mb-16 bg-gradient-to-r from-gray-800 via-sky-800/80 to-sky-500/40 bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(56,189,248,0.3)] font-medium"
+          className="font-inter px-4 sm:px-7 py-0 m-0 mb-4 sm:mb-16 bg-gradient-to-r from-gray-800 via-sky-800/80 to-sky-500/40 bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(56,189,248,0.3)] font-medium"
           style={{ fontSize: "clamp(1.2rem, 3.2vw, 2.5rem)" }}
         >
           Howdy! I am Naitik
