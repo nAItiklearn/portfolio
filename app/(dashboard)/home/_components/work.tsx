@@ -73,6 +73,15 @@ const projects = [
     repo: "https://github.com/nAItiklearn/Egg",
     website: "https://egg-snowy.vercel.app/",
   },
+  {
+    name: "BLACKWOOD-18",
+    initial: "B",
+    description:
+      "A small web project that creates an old corrupted computer terminal. Uses dark red CRT-style interface, designed to make you feel like you are interacting with an old system terminal.",
+    image: "/projects/BLACKWOOD.png",
+    repo: "https://github.com/nAItiklearn/BLACKWOOD-18",
+    website: "https://naitiklearn.github.io/BLACKWOOD-18/",
+  },
 ];
 
 const words = "My latest projects!".split(" ");
